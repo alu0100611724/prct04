@@ -1,7 +1,11 @@
 #! /usr/bin/env ruby
 
 def mapmap(a)
-  x.map { |xr| xr.map { |y| yield y } }
+  a.map { |r| 
+    r.map { |e| 
+      yield e
+    }
+  }
 end 
 
 def to_m(a)
