@@ -7,7 +7,17 @@ Escuela Técnica Superior de Ingeniería Informática
 
 Realizado por:
 Maurizio A. Rendon M.
-Ivan Cabaleiros Escuderos.
+Ivan Cabaleiro Escudero.
 
+Reporte de Errores:
 
+Comenzamos creando el repositorio remoto compartido en la cuenta de Maurizio, del cual Ivan hace un clone a su repositorio local.
+Tras esto, realiza cambios y los sube al repositorio con un push.
+Cuando Maurizio intenta subir sus nuevos cambios, github no permite realizar un nuevo push, y nos transmite el siguiente error:
 
+To git@github.com:alu0100611724/prct04.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:alu0100611724/prct04.git'
+
+Para solucionarlo, Maurizio necesito realizar un git pull --no-rebase del repositorio remoto,
+para poder realizar el merge con su rama y posteriormente subir sus cambios al repositorio remoto con un push.
