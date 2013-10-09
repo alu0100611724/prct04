@@ -19,8 +19,8 @@ To git@github.com:alu0100611724/prct04.git
  ! [rejected]        master -> master (non-fast-forward)
 error: failed to push some refs to 'git@github.com:alu0100611724/prct04.git'
 
-Para solucionarlo, Maurizio necesitó realizar un pull del repositorio remoto, para poder realizar el merge con su rama y 
-posteriormente subir sus cambios al repositorio remoto con un push.
+Para solucionarlo, Maurizio necesito realizar un git pull --no-rebase del repositorio remoto,
+para poder realizar el merge con su rama y posteriormente subir sus cambios al repositorio remoto con un push.
 
 
 
