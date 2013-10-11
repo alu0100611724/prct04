@@ -21,3 +21,7 @@ error: failed to push some refs to 'git@github.com:alu0100611724/prct04.git'
 
 Para solucionarlo, Maurizio necesito realizar un git pull --no-rebase del repositorio remoto,
 para poder realizar el merge con su rama y posteriormente subir sus cambios al repositorio remoto con un push.
+
+
+--¡¡IMPORTANTE!! alu0100611120 mezcla sus dos cuentas de github por error, los commit correspondientes a cabaleiro8
+se corresponden con este alu.
